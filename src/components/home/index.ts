@@ -1,0 +1,7 @@
+export { Hero } from './hero'
+export { FeaturedCollections } from './featured-collections'
+export { FeaturedProducts, NewArrivals, BestSellers, LimitedEdition, ProductSection } from './product-sections'
+export { PromotionalBanner } from './promotional-banner'
+export { ReviewsSection } from './reviews'
+export { InstagramGallery } from './instagram-gallery'
+export { Newsletter } from './newsletter'
