@@ -3,7 +3,7 @@
 import * as React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { ArrowLeft, Mail, CheckCircle } from 'lucide-react'
+import { ArrowLeft, Mail, CircleCheck as CheckCircle } from 'lucide-react'
 import { Navbar, Footer } from '@/components/layout'
 import { Button, Input, Card } from '@/components/ui'
 

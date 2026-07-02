@@ -4,19 +4,7 @@ import * as React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
-import {
-  LayoutDashboard,
-  Package,
-  Users,
-  FolderTree,
-  Warehouse,
-  Tag,
-  BarChart3,
-  Settings,
-  LogOut,
-  ChevronLeft,
-  Menu,
-} from 'lucide-react'
+import { LayoutDashboard, Package, Users, FolderTree, Warehouse, Tag, ChartBar as BarChart3, Settings, LogOut, ChevronLeft, Menu } from 'lucide-react'
 import { Button, Badge } from '@/components/ui'
 import { cn } from '@/lib/utils'
 

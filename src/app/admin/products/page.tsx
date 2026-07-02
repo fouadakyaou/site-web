@@ -4,16 +4,7 @@ import * as React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import {
-  Plus,
-  Search,
-  MoreHorizontal,
-  Edit,
-  Trash2,
-  Eye,
-  Filter,
-  Download,
-} from 'lucide-react'
+import { Plus, Search, MoveHorizontal as MoreHorizontal, CreditCard as Edit, Trash2, Eye, ListFilter as Filter, Download } from 'lucide-react'
 import { Card, Button, Badge, Input } from '@/components/ui'
 import { products } from '@/lib/data'
 import { formatPrice } from '@/lib/utils'

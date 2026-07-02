@@ -2,17 +2,7 @@
 
 import * as React from 'react'
 import { motion } from 'framer-motion'
-import {
-  Search,
-  Filter,
-  Download,
-  Package,
-  Eye,
-  Truck,
-  CheckCircle,
-  Clock,
-  XCircle,
-} from 'lucide-react'
+import { Search, ListFilter as Filter, Download, Package, Eye, Truck, CircleCheck as CheckCircle, Clock, Circle as XCircle } from 'lucide-react'
 import { Card, Button, Badge, Input } from '@/components/ui'
 import { formatPrice, formatDate } from '@/lib/utils'
 import { cn } from '@/lib/utils'
